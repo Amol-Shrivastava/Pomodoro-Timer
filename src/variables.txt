@@ -1,0 +1,19 @@
+background-color: #1e2140
+dial-color: #151932
+text-color: #d7e0fe
+heading-color: #d4dbf9
+1st-hightlight-color: #f87070
+pause-color: #c5cae8
+
+2nd highlight-color: #70f2f8
+3rd highlight-color: #d981f9
+
+button-background: #f87070
+
+//settings page 
+text-color: #13142c
+input-background: #eef1fa
+input-heading: #eae9f3
+light-color: #edf0f8
+
+font-family: Questa 
