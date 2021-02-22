@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Clock from "./components/Clock";
 import Settings from "./components/Settings";
 import Status from "./components/Status";
+
 //Styled-components
 import { GlobalStyle } from "./GlobalStyles";
 import styled from "styled-components";
@@ -10,8 +11,8 @@ import styled from "styled-components";
 //Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faCog } from "@fortawesome/fontawesome-svg-core";
-import { faCog } from "@fortawesome/free-solid-svg-icons";
 
+import { faCog } from "@fortawesome/free-solid-svg-icons";
 function App() {
   const [toggleBtn, setToggleBtn] = useState(false);
 
