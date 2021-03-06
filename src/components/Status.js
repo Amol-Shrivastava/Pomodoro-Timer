@@ -34,6 +34,7 @@ const Style_statusCont = styled.div`
   .status {
     flex: 0 1 calc(100% / 3);
     padding: 1rem 1.4rem;
+    cursor: pointer;
   }
 `;
 

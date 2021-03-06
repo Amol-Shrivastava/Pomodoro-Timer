@@ -3,9 +3,16 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import { FontProvider } from "./contexts/FontContext";
+import { ColorProvider } from "./contexts/ColorContext";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FontProvider>
+      <ColorProvider>
+        <App />
+      </ColorProvider>
+    </FontProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

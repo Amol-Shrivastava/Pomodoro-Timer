@@ -11,9 +11,11 @@ pause-color: #c5cae8
 button-background: #f87070
 
 //settings page 
+time-heading: #2e2e39
 text-color: #13142c
 input-background: #eef1fa
 input-heading: #eae9f3
 light-color: #edf0f8
+range-background: #eef1fa
 
 font-family: Questa 

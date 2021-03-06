@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
 
+import { onlyColorContext } from "../contexts/ColorContext";
+
 const Clock = () => {
+  const colorValue = useContext(onlyColorContext);
   return (
     <Style_wrapperCont>
       <Style_containerSvg>
@@ -16,6 +19,7 @@ const Clock = () => {
           cy="150"
           r="120"
           className="progress"
+          colorType={colorValue}
         ></Style_innerCircle>
       </Style_containerSvg>
 
@@ -53,7 +57,7 @@ const Style_outerCircle = styled.circle`
   fill: none;
 `;
 const Style_innerCircle = styled.circle`
-  stroke: #f87070;
+  stroke: ${({ colorType }) => (colorType ? colorType : "#f87070")};
   fill: #151932;
   stroke-width: 10px;
   stroke-dasharray: 700;
